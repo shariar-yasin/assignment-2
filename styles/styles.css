@@ -1,3 +1,13 @@
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,31 +18,31 @@
 
 .fitness{
     color: rgba(230, 83, 60, 1.00);
+    font-weight: 800;
 }
 
-.nav-menu-btn{
-    color: rgba(255, 255, 255, 1.00);
-}
 
-.navbar-main{
+
+nav{
     max-width: 1060px;
     border: 1px solid red;
-    margin: 0 0px 0 190px;
+    
     display: flex;
+    margin: 0px 190px 0px 190px;
     justify-content: space-between;
 }
 
-.nav-btn-container{
+/* .nav-btn-container{
     display: flex;
    
    justify-content: space-between;
-}
+} */
 
 nav ul{
     display: flex;
-    color: chartreuse;
-    
 }
+    
+
 
 nav ul li{
     margin-right: 20px;
@@ -59,6 +69,9 @@ nav ul li{
 
 .banner-greetings{
     font-size: 78px;
+    /* color: rgba(255, 255, 255, 1); */
+    color: blue;
+    
 }
 
 .banner-profile-pic{
