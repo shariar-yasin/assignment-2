@@ -1,0 +1,156 @@
+@media screen and (max-width: 576px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .grid-item {
+        text-align: center;
+    }
+
+    .third-section {
+        flex-direction: column;
+    }
+
+    .form-group {
+        display: flex;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+
+    }
+
+    .child-1 {
+        grid-column: 1/ span 6;
+
+    }
+
+    .child-2 {
+        grid-column: 7/ span6;
+    }
+
+    .child-3 {
+        display: none;
+    }
+
+    .child-4 {
+        grid-column: 1/ span 6;
+    }
+
+    .child-5 {
+        grid-column: 7/ span 6;
+    }
+
+    .child-6 {
+        display: none;
+    }
+
+    .team-grid {
+
+        grid-template-columns: repeat(1, 1fr);
+
+        max-width: 576px;
+        margin: 0 auto;
+
+
+
+
+    }
+
+    .bmi-calculator {
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+
+    .footer-width {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    select.full-width {
+        width: 245px;
+
+    }
+
+    input[type="submit"] {
+        width: 268px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-bar-list {
+        display: none;
+        
+
+    }
+
+    nav {
+        max-width: 500px;
+        margin: 30px;
+    }
+
+    .team-member-1 {
+        padding-left: 50px;
+    }
+
+    .list-group {
+        padding: 10px 20px 0px 20px;
+    }
+    .list-group-2nd{
+        padding: 20px 20px 50px 20px;
+    }
+
+    .gym-instructor{
+        padding-left: 60px;
+    }
+
+    .team-member-2 > div {
+        padding-left: 115px;
+    }
+    .team-member-3 > div {
+        padding-left: 115px;
+    }
+    .team-member-4 > div {
+        padding-left: 115px;
+    }
+    .team-member-5 > div {
+        padding-left: 115px;
+    }
+    .team-member-6 > div {
+        padding-left: 115px;
+    }
+
+    .text-content button {
+margin-left: 30px;
+margin-bottom: 30px;
+width: 400px;
+}
+.footer-font{
+    padding-top: 30px;
+}
+.footer-para{
+    padding-bottom: 50px;
+}
+
+
+}
